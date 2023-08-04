@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+p{
+  color:black;
+  font-size:20px;
+
+}
+.price_color{
+  color:black;
+}
+.cash_symbol{
+  color:rgb(3, 124, 3);
+}
+
+.quantity{
+  color:black;
+}
+
+.itemname{
+  color: rgb(114, 70, 164);
+}
+
+.itemquantity{
+  color:rgb(3, 124, 3);
+}
+
+h1{
+  color:  #e866b4;
+} 
+
+h3{
+  color: rgb(114, 70, 164);
+}
+
+u {
+  text-decoration: underline;
+}
+
+button{
+  color: #e866b4 ;
+  background-color: rgb(114, 70, 164) ;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 5px 8px;
+  border-radius: 7px;
+  border-color: #e866b4;
+}
+
+body{
+  background-image: url("https://cdn.vectorstock.com/i/1000x1000/26/98/summer-flowers-garland-vector-13842698.webp");
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
+  text-align: left;
+}
+img{
+  border: 3px solid#e866b4;
+}
